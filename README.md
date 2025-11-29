@@ -28,4 +28,4 @@ All state syncing is fully custom-built.
 - **Real-Time Gameplay**
 - **Smooth Interpolation**
 - **Network Quality Simulation**
-- - Every message sent from the server is delayed:
+  - Every message sent from the server is delayed:
