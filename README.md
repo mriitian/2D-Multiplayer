@@ -28,4 +28,19 @@ All state syncing is fully custom-built.
 - **Real-Time Gameplay**
 - **Smooth Interpolation**
 - **Network Quality Simulation**
-  - Every message sent from the server is delayed:
+  - Every message sent from the server is delayed
+- **Security**
+- **Reconnect Handling**
+
+## 🖥 Running the Server
+
+1. Requires Node.js
+```
+cd Server
+npm install
+node server.js
+```
+
+2. Run the Client
+   - Use Unity Play Mode + Build
+   - or Use 2 Unity Builds
