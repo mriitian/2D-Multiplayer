@@ -23,5 +23,9 @@ No networking engines like Photon/Mirror/NGO were used.
 All state syncing is fully custom-built.
 
 ### 🚀 Features
-- *Authoritative Game Server*
-- 
+- **Authoritative Game Server**
+- **Lobby System** (Max 2 Players)
+- **Real-Time Gameplay**
+- **Smooth Interpolation**
+- **Network Quality Simulation**
+- - Every message sent from the server is delayed:
