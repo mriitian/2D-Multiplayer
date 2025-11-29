@@ -19,5 +19,9 @@ It was built specifically to meet the requirements of the Krafton Associate Game
 
 - Server-driven match flow: Lobby → Game → Return to Lobby.
 
-- No networking engines like Photon/Mirror/NGO were used.
+No networking engines like Photon/Mirror/NGO were used.
 All state syncing is fully custom-built.
+
+### 🚀 Features
+- *Authoritative Game Server*
+- 
