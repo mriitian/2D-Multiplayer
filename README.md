@@ -7,17 +7,17 @@ _Technologies: Unity (Client), Node.js (Authoritative Server), WebSockets_
 This project implements a real-time multiplayer Coin Collector game with an authoritative server, custom network code, and 200ms simulated latency.
 It was built specifically to meet the requirements of the Krafton Associate Game Developer Test.
 
-Two clients connect to the server, join a lobby, ready up, and play a coin-collection match where:
+- Two clients connect to the server, join a lobby, ready up, and play a coin-collection match where:
 
-The server simulates all gameplay (movement, collisions, scoring).
+- The server simulates all gameplay (movement, collisions, scoring).
 
-Clients send only inputs (W/A/S/D).
+- Clients send only inputs (W/A/S/D).
 
-Smooth interpolation hides real-world (simulated) latency.
+- Smooth interpolation hides real-world (simulated) latency.
 
-Coin spawning and scoring are fully server-validated.
+- Coin spawning and scoring are fully server-validated.
 
-Server-driven match flow: Lobby → Game → Return to Lobby.
+- Server-driven match flow: Lobby → Game → Return to Lobby.
 
-No networking engines like Photon/Mirror/NGO were used.
+- No networking engines like Photon/Mirror/NGO were used.
 All state syncing is fully custom-built.
